@@ -3,6 +3,10 @@
 
 This library contains environments consisting of operations research problems which adhere to the OpenAI Gym API. The purpose is to bring reinforcement learning to the operations research community via accessible simulation environments featuring classic problems that are solved both with reinforcement learning as well as traditional OR techniques.
 
+## MIE1666 Specific Changes
+- Theoretical implementation of buyback contract in OR-Gym framework `or_gym => envs => supply_chain => buyback_contract.py`
+- Actual scripts/notebooks the trainings are done in `newsvendor_rl`
+
 ## Installation
 
 This library requires Python 3.5+ in order to function.
